@@ -1,0 +1,27 @@
+{
+  "name": "pairing-app",
+  "version": "1.0.0",
+  "description": "this tiny app aims to generate students pairs on each sprint by using pairing algorithm which produces unique pairs each time considering the technical level of each student",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maherghnom/pairing-app.git"
+  },
+  "author": "Mhd Salim Bakri, Maher Ghanom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maherghnom/pairing-app/issues"
+  },
+  "homepage": "https://github.com/maherghnom/pairing-app#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
